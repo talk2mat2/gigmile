@@ -39,7 +39,7 @@ const Piechats = () => {
   return (
     <div className="mt-auto" style={{ width: "100%", height: "172px" }}>
       <ResponsiveContainer width="95%" height="100%">
-        <PieChart width={730} height={250}>
+        <PieChart  height={300}>
         <Tooltip />
           <Pie
             data={data02}
@@ -47,8 +47,8 @@ const Piechats = () => {
             nameKey="name"
             cx="50%"
             cy="50%"
-            innerRadius={60}
-            outerRadius={80}
+            innerRadius={"75%"}
+            outerRadius={"99%"}
             fill="#82ca9d"
             
           >

@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-row">
       {open && <SideNav toggleNav={toggleNav} />}
-      <div className="main-body  px-[10px] md:px-[15px] lg:px-[50px]">
+      <div className="main-body  px-[10px] md:px-[0] lg:px-[50px]">
         {React.cloneElement(children, { toggleNav })}
       </div>
     </div>

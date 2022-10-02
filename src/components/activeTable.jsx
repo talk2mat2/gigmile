@@ -56,7 +56,7 @@ const columns = [
     title: "",
     dataIndex: "key",
     key: "2",
-    width: 16,
+    width: 20,
     render: () => (
       <Dropdown overlay={menu}>
         <a onClick={(e) => e.preventDefault()}>

@@ -13,7 +13,7 @@ const ServiceRequest = () => {
           Total Working Capital Request so far
         </p>
       </span>
-      <div className="mt-6 px-1">
+      <div className="mt-12 px-1">
         <Piechats />
       </div>
     </div>
