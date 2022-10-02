@@ -39,7 +39,7 @@ const Main = ({toggleNav}) => {
           <DownOutlined className="mx-2" />
         </div>
       </nav>
-      <section className="mt-[32px] flex flex-row md:gap-4 gap-y-2 md:grid-cols-3  lg:grid-cols-3  flex-wrap md:flex-nowrap lg:flex-nowrap ">
+      <section className="mt-[32px] gap-2 flex  justify-between flex-row gap-y-2 md:grid-cols-3  lg:grid-cols-3  flex-wrap md:flex-nowrap lg:flex-nowrap max-w-[68.75rem]">
         <ServiceCard />
         <TotalRequest />
         <ServiceRequest />

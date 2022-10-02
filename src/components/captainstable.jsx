@@ -7,7 +7,7 @@ import PendingTable from "./pending";
 import Completedtable from "./completed";
 const CaptinsTable = () => {
   return (
-    <div className="mt-[49px] m-1">
+    <div className="mt-[49px] m-1 max-w-[68.75rem]">
       <Row className=" justify-between items-center">
         <h6 className="tt-header">
           Gigmile Captains on Working Capital Service Requests
